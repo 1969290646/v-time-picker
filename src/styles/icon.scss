@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'dt-icon';
+  src:
+    url('fonts/dt-icon.ttf?pvy6j9') format('truetype'),
+    url('fonts/dt-icon.woff?pvy6j9') format('woff'),
+    url('fonts/dt-icon.svg?pvy6j9#dt-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="dt-icon-"], [class*=" dt-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'dt-icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dt-icon-close:before {
+  content: "\e904";
+}
+.dt-icon-search:before {
+  content: "\e900";
+}
+.dt-icon-time:before {
+  content: "\e901";
+}
+.dt-icon-caret-down:before {
+  content: "\e902";
+}
+.dt-icon-delete:before {
+  content: "\e903";
+}
